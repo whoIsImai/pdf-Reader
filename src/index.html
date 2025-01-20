@@ -13,9 +13,19 @@
           <label for="file-upload" class="upload-btn">Choose PDF File</label>
           <p id="file-name"></p>
       </div>
-      <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+      <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search" />
+          <button id="search-btn" disabled="disabled">Search</button>
   </div>
-  </body>
+     <!-- <iframe id="pdf-viewer" src="" frameborder="0"></iframe> -->
+      <div id="pdf-viewer"></div>
+      <script type="module">
+        import * as pdfjsLib from './libs/pdfjs/pdf.mjs';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = './libs/pdfjs/pdf.worker.mjs';
+        window.pdfjsLib = pdfjsLib;
+      </script>
+      <script type="module" src="script.js"></script>
+    </body>
 
-  <script src="script.js"></script>
+
 </html>
