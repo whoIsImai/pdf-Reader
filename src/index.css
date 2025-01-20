@@ -26,7 +26,7 @@ h1 {
   display: none;
 }
 .upload-btn {
-  background-color: #4CAF50;
+  background-color: #F5C63C;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -35,7 +35,7 @@ h1 {
   font-size: 16px;
 }
 .upload-btn:hover {
-  background-color: #45a049;
+  background-color: #FFB32B;
 }
 #file-name {
   margin-top: 10px;
@@ -58,8 +58,12 @@ h1 {
   border-radius: 4px;
   height: 17px;
 }
+#search-result{
+  font-size: larger;
+  color: red;
+}
 #search-btn {
-  background-color: #4CAF50;
+  background-color: #F5C63C;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -70,8 +74,23 @@ h1 {
   height: 35px;
   text-align: center;
 }
-.search-btn:hover {
-  background-color: #45a049;
+#refresh-btn{
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  background-color: #E88C7D;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 10px;
+}
+#refresh-btn:hover{
+  background-color: #E56B6F;
+}
+#search-btn:hover {
+  background-color: #FFB32B;
 }
 #search-btn:disabled {
   background: #999;
