@@ -1,12 +1,21 @@
-gti<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>PDF Reader</title>
+    <title>PDF Searcher</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div class="container">
+      <h1>PDF Uploader, Reader and Search</h1>
+      <div class="upload-container">
+          <input type="file" id="file-upload" accept="application/pdf" />
+          <label for="file-upload" class="upload-btn">Choose PDF File</label>
+          <p id="file-name"></p>
+      </div>
+      <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+  </div>
   </body>
+
+  <script src="script.js"></script>
 </html>
