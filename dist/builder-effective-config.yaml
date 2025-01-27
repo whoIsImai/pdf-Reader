@@ -1,0 +1,12 @@
+directories:
+  output: dist
+  buildResources: build
+appId: pdfReader
+win:
+  target: nsis
+  icon: src/icon/Papirus-Team-Papirus-Apps-Foxit-reader.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+files: []
+electronVersion: 34.0.0

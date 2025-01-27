@@ -12,7 +12,8 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
      "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "build": "npm run dist"
   },
   "build": {
     "appId": "pdfReader",
