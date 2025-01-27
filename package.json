@@ -10,7 +10,20 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+     "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "pdfReader",
+    "win": {
+      "target": "nsis",
+      "icon": "src/icon/Papirus-Team-Papirus-Apps-Foxit-reader.ico"
+    },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.6.0",
