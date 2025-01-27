@@ -23,7 +23,8 @@
     },
   "nsis": {
     "oneClick": false,
-    "allowToChangeInstallationDirectory": true
+    "allowToChangeInstallationDirectory": true,
+    "useSymbolicLinks": false
   }
   },
   "devDependencies": {
