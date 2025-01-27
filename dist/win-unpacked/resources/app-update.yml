@@ -1,0 +1,4 @@
+owner: whoIsImai
+repo: pdf-Reader
+provider: github
+updaterCacheDirName: pdf-reader-updater
